@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+            color: #777;
+        }
+
+        /* Section Title Styles */
+        .section-title {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            margin: 20px 0 10px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Contact Section */
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills li {
+            background-color: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        /* Experience & Education Styles */
+        .experience li,
+        .education li {
+            margin-bottom: 20px;
+        }
+
+        .experience strong,
+        .education strong {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .experience ul,
+        .education ul {
+            margin-left: 20px;
+        }
+
+        .experience li ul li,
+        .education li ul li {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* Link Styling */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1rem;
+                padding: 8px 12px;
+            }
+
+            .skills ul {
+                flex-direction: column;
+            }
+
+            .skills li {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Nathalie Acosta</h1>
+            <p>Software Developer | Web Designer | Problem Solver</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a> | Phone: (123) 456-7890</p>
+            <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | <a href="https://www.yourwebsite.com" target="_blank">Portfolio</a></p>
+        </header>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <div class="section-title">Contact Information</div>
+            <div class="content">
+                <ul>
+                    <li><strong>Email:</strong> nathacosta31@gmail.com</li>
+                    <li><strong>Phone:</strong> 09954393320</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                    <li><strong>Portfolio:</strong> <a href="https://www.yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="section-title">Skills</div>
+            <div class="content">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React.js, Node.js</li>
+                    <li>Python, Django</li>
+                    <li>Git, GitHub</li>
+                    <li>Agile Methodology</li>
+                    <li>Database Management (MySQL, MongoDB)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="experience">
+            <div class="section-title">Work Experience</div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <strong>Software Developer</strong> | Company Name | Jan 2020 - Present
+                        <ul>
+                            <li>Developed web applications using React, Node.js, and MongoDB.</li>
+                            <li>Collaborated with cross-functional teams to design and implement new features.</li>
+                            <li>Improved application performance by optimizing front-end code and APIs.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Junior Developer</strong> | Another Company | Jun 2018 - Dec 2019
+                        <ul>
+                            <li>Built and maintained websites using HTML, CSS, JavaScript, and PHP.</li>
+                            <li>Assisted senior developers in designing and building new features for clients.</li>
+                            <li>Worked on bug fixes and code reviews to ensure high code quality.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <div class="section-title">Education</div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <strong>Bachelor of Science in Computer Science</strong> | University Name | May 2018
+                        <ul>
+                            <li>Relevant coursework: Web Development, Algorithms, Data Structures</li>
+                            <li>Graduated with Honors (GPA: 3.8/4.0)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <div class="section-title">Certifications</div>
+            <div class="content">
+                <ul>
+                    <li>Certified Web Developer - FreeCodeCamp (2020)</li>
+                    <li>React.js Developer Certification - Codecademy (2021)</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
